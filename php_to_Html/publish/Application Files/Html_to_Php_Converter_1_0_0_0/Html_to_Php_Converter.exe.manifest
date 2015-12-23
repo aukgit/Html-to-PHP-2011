@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="Html_to_Php_Converter.exe" version="1.0.0.0" publicKeyToken="cab7820b504366e0" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Html_to_Php_Converter" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Html_to_Php_Converter.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Html_to_Php_Converter.exe" size="40960">
+      <assemblyIdentity name="Html_to_Php_Converter" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>rhUYCrI9sJI41kj8EJPGj8zBwxU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Html_to_Php_Converter.exe.config" size="2511">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>9Oit+c/p+aNmpPBv4yOLClmlrVY=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DEVORG-11C1BAA8\DevOrg" issuerKeyHash="a46ab7c753629518ce740d4ae2440695b7da2873" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>A0UP19dsMrm0C/cNJStZRmmPJBU=</DigestValue></Reference></SignedInfo><SignatureValue>xAQjd7BNTMlqt7GIMawjgNK9iCBWIDOdgzj2N2PiZntlC0Wr9ofUJjOLTyKnCSTPxpzp49/xZ8e0MWT9THyel+AajFe33JtxR3tnnEPEQVL6Qt1ED7cz5pyuIyLZafQEdbz+gvtwGgbBWn0qSrMCzB0kR7w2JLKuGOBLOC1UyeY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3pHM09Ien1V6TNnqFKRxkJR5l5mb7CJDyOYF48m3CsdQBxOw1fm/tt8oPWSy8Fbcas+QDhF0ESjNEjSCAjMMPVENeZzATfccl2FH08O89kLYSQ6LZv71vp+BhmO1M4QLcrQWITI7RywcyStqfm3vRQYoUNLa3NDOgjHFCufUe1U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="15248f6946592b250df70bb4b9326cd7d70f4503" Description="" Url=""><as:assemblyIdentity name="Html_to_Php_Converter.exe" version="1.0.0.0" publicKeyToken="cab7820b504366e0" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DEVORG-11C1BAA8\DevOrg</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>gFpnCy+JwMhFRwVWCoqro1/1DbM=</DigestValue></Reference></SignedInfo><SignatureValue>LJNDNUXzXQWFbuC1LMxKw8D0AfZBx/10dkWyPanqnCBThDsa8xO8qC2BbAvmTQ51teG0CgPAlPpRZeL64OKy/rnCzC6MHcOr6cnQN8UJEZ1LVotqWhXh+waCCCETXs3vzUV4NyJdRNZ4XOdZLE048s4e8D3gEtPE719iacX9u7M=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3pHM09Ien1V6TNnqFKRxkJR5l5mb7CJDyOYF48m3CsdQBxOw1fm/tt8oPWSy8Fbcas+QDhF0ESjNEjSCAjMMPVENeZzATfccl2FH08O89kLYSQ6LZv71vp+BhmO1M4QLcrQWITI7RywcyStqfm3vRQYoUNLa3NDOgjHFCufUe1U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVagAwIBAgIQCWjOvYmP+o1HnRZAdiMLHjAJBgUrDgMCHQUAMDcxNTAzBgNVBAMeLABEAEUAVgBPAFIARwAtADEAMQBDADEAQgBBAEEAOABcAEQAZQB2AE8AcgBnMB4XDTEwMTAxNDA3Mjk1N1oXDTExMTAxNDEzMjk1N1owNzE1MDMGA1UEAx4sAEQARQBWAE8AUgBHAC0AMQAxAEMAMQBCAEEAQQA4AFwARABlAHYATwByAGcwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAN6RzNPSHp9VekzZ6hSkcZCUeZeZm+wiQ8jmBePJtwrHUAcTsNX5v7bfKD1ksvBW3GrPkA4RdBEozRI0ggIzDD1RDXmcwE33HJdhR9PDvPZC2EkOi2b+9b6fgYZjtTOEC3K0FiEyO0csHMkran5t70UGKFDS2tzQzoIxxQrn1HtVAgMBAAEwCQYFKw4DAh0FAAOBgQAqatf4Qtw1PnJXIosncXuKdI/+yek8M4Vt0W+o6F5/gE7gv8Hjhunv/XlNjOIgMCexW9emtdwurcZ2ZdcwRuz9W3Un3P+J0jdU5rG3pxJqrJ3d3Fz45ZkCJ4DBWASdfor78P/z8YDyKA/IFyGuuuCILB9+77moXTs8YKa0bRlDZA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
